@@ -124,6 +124,20 @@ float: right
 
 
 }
+.wrapper div:first-of-type div{
+	/*background: url('....') */
+}
+.wrapper div:nth-of-type(2) div {
+	/*background: url('....') */
+}
+
+.wrapper div:nth-of-type(3) div {
+	/*background: url('....') */
+}
+.wrapper div:nth-of-type(4) div {
+	/*background: url('....')*/ 
+}
+
 #services .box p{
 	font-size: 1.4rem;
 	font-weight:400;
@@ -186,6 +200,7 @@ padding-top: 100px;
 	float: left;
 	background-color: #fff;
 }
+
 #products .container .box:hover{
 	background-color: #000;
 	color: #fff;
