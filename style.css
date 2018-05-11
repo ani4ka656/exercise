@@ -1,0 +1,362 @@
+html, body, div, p, h1, h2, h3,h4, img, a,
+ul, li, span {
+	margin: 0;
+	padding: 0
+}
+html{
+	font-size: 62.5%
+}
+body {
+	font-family: 'Lato', sans-serif;
+	width: 1800px;
+}
+.wrapper {
+	width: 1450px;
+	margin: 0 auto;	
+}
+ul {
+	list-style-type: none
+}
+a {
+	text-decoration: none;
+	display: block
+}
+/*****************START MENU**************/
+/******************************************/
+/*****************************************/
+#menu .wrapper {
+	height: 70px;
+	background-color: #fff;	
+}
+#menu #nav h1{
+	font-size: 2.6rem;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900px;
+	background-color: #fff;
+	display: inline-block;
+	line-height: 20px;
+	margin:25px 0px;
+	width: 130px;
+
+}
+#menu #nav {
+/*	height: 70px;	
+	background-color: #fff;	*/
+	width: 100%;
+}
+#menu #nav {
+	width:1450px;
+}
+#menu a {
+	color: #313131;
+	line-height: 10px;
+	font-weight: 400;
+}
+#menu li a:hover {
+	font-weight: 700;
+}
+}
+#header #nav ul {	
+	width: 430px;	
+	height: 100%;
+	display: inline-block;
+}
+#menu #nav ul li {
+	float: left;
+	margin: 30px 40px 30px 0;
+}
+#just{
+float: right
+}
+/*****************START HEADER**************/
+/******************************************/
+/*****************************************/
+
+#header {
+	background-color:#484848;
+}
+#header #text h3{
+	font-weight: 700;
+	font-size: 5.6rem;
+	color: #fff;
+	line-height: 45px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+#header #text{
+	width: 580px;
+	margin:0 auto;
+	height: 270px;
+	padding-top: 160px;
+	padding-bottom:120px;
+}
+#header #text p{
+	font-size:2rem;
+	font-weight:400;
+	line-height: 30px;
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+	color:#fff;
+}
+/*****************SERVICES**************/
+/******************************************/
+/*****************************************/
+#services .wrapper {
+	height:490px;
+	background-color: #fff;
+
+}
+#services .box{
+	width: 290px;
+	height: 430px;
+	float:left;
+	margin: 35px 0px;
+
+}
+#services .box div{
+	margin-top: 78px;
+	margin: 22px auto;
+	width: 110px;
+	height: 110px;
+	background-color: #3B81E9;
+
+
+}
+#services .box p{
+	font-size: 1.4rem;
+	font-weight:400;
+	margin:0 auto;
+	color: #313131;
+	width: 270px;
+	line-height: 25px;
+}
+#services .box h3{
+	font-size: 2.1rem;
+	font-weight:900;
+	text-align: center;
+	line-height: 50px;
+/*	margin:0 auto;*/
+	color: #3498db;
+}
+/***************** START PRODUCTS**************/
+/******************************************/
+/*****************************************/
+#products {
+	background-color: #e5e5e5 ;
+}
+#products .wrapper{
+	height: 860px
+}
+#products .text{
+padding-top: 100px;
+}
+#products .text h2{
+	font-size: 4.2rem;
+	font-weight: 900;
+	line-height: 75px;
+}
+#products .container span{
+	line-height: 55px;	
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+#products .container p{
+	font-size: 1.4rem;
+	font-weight: 400;
+	width: 465px;
+	line-height: 30px
+}
+#products .container a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	width:270px;
+	line-height: 50px;
+	margin-bottom: 75px;
+	border-radius: 5px;
+	margin-top: 35px;
+}
+#products .container .box{
+	height: 280px;
+	width: 390px;
+	float: left;
+	background-color: #fff;
+}
+#products .container .box:hover{
+	background-color: #000;
+	color: #fff;
+}
+#products .box h3{
+	font-size: 1.2rem;
+	font-weight:900;
+	margin-top:40px;
+	line-height:26px;
+	text-align: center
+}
+#products .box span{
+	font-size: 3.2rem;
+	font-weight: 900;
+	text-align: center;
+	display: block;
+}
+/***************** START NEWS**************/
+/******************************************/
+/*****************************************/
+#news{
+	background-color: #eee;
+}
+#news .wrapper{
+	height: 530px;
+}
+#news .container {
+	height: 360px;
+	width: 370px;
+	float: left;
+	margin-right:20px;
+	padding-top: 80px;
+
+}
+#news .container .box{
+	width: 370px;
+	height: 300px;
+	background-color: #fff;
+}
+#news .container  h3{
+	font-size: 1.8rem;
+	font-weight: 900;
+	line-height: 30px;
+	display: inline-block;
+} 
+#news .container  h4{
+	display: inline;
+	color: #626262;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+#news .container div.vertical-line{
+	display: inline-block;
+	border-right: 2px solid #fff;
+	margin:0px 8px 0px 10px;
+	width: 2px;
+	height: 12px;
+}
+#news .container span.line{
+	border-top: 5px solid #fff;
+	display: block;
+	margin-bottom: 25px;
+	width: 70px;
+	height: 5px
+}
+#news .container .box img{
+	width: 370px;
+	height: 140px;
+	background-color: #2D2C2C
+}
+#news .container .box h4{
+	color:#3498db;
+	margin-top: 27px;
+	font-size:1.8rem;
+	margin-left:20px;
+	line-height: 33px;
+	font-weight: 900;
+}
+#news .container .box p{
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height:23px;
+	margin-left:20px;
+	margin-bottom:20px;
+	width: 330px;
+}
+
+
+.date {
+	display: none
+}
+/***************** START CONTACT**************/
+/******************************************/
+/*****************************************/
+#contact {
+	background-color: #c9c9c9;
+}
+#contact #wrapper{
+	height: 360px;
+}
+#contact .container div{
+	padding-top: 65px;
+}
+#contact .rights h3{
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 48px;
+	color: #000;
+}
+#contact .rights p{
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 21px; 
+	color: #626262
+}
+#contact .rights span{
+	font-size: 1.4rem;
+	font-weight: 700;
+	margin-top: 24px;
+	display: inline-block;
+	color: #626262
+}
+
+#contact .container div{
+	width: 300px;
+	height: 190px; 
+}
+
+#contact .sub-menu a{
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 30px;
+	color: #626262;
+}
+#contact .box{
+	float:left;
+}
+#contact .sub-menu {
+/*display: inline-block;*/
+	margin-left: 115px;
+}
+#contact .form p{
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height:21px;
+}
+#contact .form{
+	float: right;
+}
+#contact form {
+
+	margin:25px 0px;
+}
+#contact .form ul{
+	width: 400px;
+	padding-top: 25px
+} 
+#contact .form li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align:center;
+	margin-left: 10px
+}
+#contact .form li a {
+		display: block;
+	width: 40px;
+	line-height: 40px;
+	background-color: #333;
+	color: #fff;
+}
+
+
+	
