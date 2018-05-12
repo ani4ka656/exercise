@@ -33,12 +33,13 @@ a {
 	text-align: left;
 	font-family: 'Lato', sans-serif;
 	font-weight: 900px;
-	background-color: #fff;
 	display: inline-block;
 	line-height: 20px;
 	margin:25px 0px;
 	width: 130px;
-
+}
+#menu #nav h1 a {
+	color: #313131;
 }
 #menu #nav {
 /*	height: 70px;	
@@ -48,7 +49,7 @@ a {
 #menu #nav {
 	width:1450px;
 }
-#menu a {
+#menu ul a {
 	color: #313131;
 	line-height: 10px;
 	font-weight: 400;
@@ -63,6 +64,8 @@ a {
 	display: inline-block;
 }
 #menu #nav ul li {
+	font-size:1.4rem;
+	font-weight: 400;
 	float: left;
 	margin: 30px 40px 30px 0;
 }
@@ -147,6 +150,7 @@ background-color: #eee;
 	color: #313131;
 	width: 270px;
 	line-height: 25px;
+	width: 265px;
 }
 #services .box h3{
 	font-size: 2.1rem;
@@ -196,7 +200,7 @@ padding-top: 100px;
 	font-size: 16px;
 	font-weight: 700;
 	color: #000;
-	background-color: #fff;
+	background-color: #f5f5f5;
 	text-align: center;
 	width:270px;
 	line-height: 50px;
@@ -217,11 +221,11 @@ padding-top: 100px;
 	line-height:26px;
 	text-align: center
 }
-#products .box span{
+#products .box h4{
 	font-size: 3.2rem;
 	font-weight: 900;
 	text-align: center;
-	display: block;
+/*	display: block;*/
 }
 #products .container .box:hover{
 	background-color: #000;
@@ -360,7 +364,7 @@ padding-top: 100px;
 	margin-left: 470px;
 }
 #contact form {
-	margin-bottom:38px;
+	margin-bottom:40px;
 }
 #contact form input[type=text]{
 	height: 33px;
@@ -378,7 +382,9 @@ padding-top: 100px;
 }
 #contact .form ul{
 	width: 400px;
-	padding-top: 25px
+}
+#contact .form li:first-of-type{
+	margin-left: 0px;
 } 
 #contact .form li{
 	display: inline-block;
@@ -386,9 +392,6 @@ padding-top: 100px;
 	height: 30px;
 	text-align:center;
 	margin-left: 5px;
-}
-#contact .form li:first-of-tipe{
-	margin-left: 0px;
 }
 #contact .form li a {
 	display: block;
